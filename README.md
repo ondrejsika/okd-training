@@ -19,6 +19,16 @@ Mac
 brew install openshift-cli
 ```
 
+## Connect Lab VM
+
+Connect my lab VM using SSH on `root@labX.sikademo.com` where `X` is your instance nuber.
+
+Password is `asdfasdf1234`
+
+```
+ssh root@labX.sikademo.com
+```
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**
