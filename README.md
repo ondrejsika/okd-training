@@ -19,6 +19,12 @@ Mac
 brew install openshift-cli
 ```
 
+Using [slu](https://github.com/sikalabs/slu) (Linux, Windows, Mac)
+
+```
+slu install-bin oc
+```
+
 ## Connect Lab VM
 
 Connect my lab VM using SSH on `root@labX.sikademo.com` where `X` is your instance nuber.
