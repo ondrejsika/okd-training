@@ -47,6 +47,21 @@ Get token here:
 
 https://oauth-openshift.apps.okd95.aws0.sikademo.com/oauth/token/request
 
+## Add OAuth Identity Provider
+
+https://console-openshift-console.apps.okd95.aws0.sikademo.com/k8s/cluster/config.openshift.io~v1~OAuth/cluster
+
+`.htpasswd` file with password `a`:
+
+```htpasswd
+foo:$apr1$ibyx8umg$CQazIIYavasmgi4Xbp6721
+bar:$apr1$ibyx8umg$CQazIIYavasmgi4Xbp6721
+baz:$apr1$ibyx8umg$CQazIIYavasmgi4Xbp6721
+user1:$apr1$ibyx8umg$CQazIIYavasmgi4Xbp6721
+user2:$apr1$ibyx8umg$CQazIIYavasmgi4Xbp6721
+user3:$apr1$ibyx8umg$CQazIIYavasmgi4Xbp6721
+```
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**
