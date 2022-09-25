@@ -110,6 +110,27 @@ oc project <project>
 oc project training
 ```
 
+## Pod Security Admission
+
+- https://cloud.redhat.com/blog/pod-security-admission-in-openshift-4.11
+
+Global configuration of Pod Security Admission
+
+```yaml
+apiVersion: pod-security.admission.config.k8s.io/v1beta1
+kind: PodSecurityConfiguration
+defaults:
+  enforce: "privileged"
+  enforce-version: "latest"
+  audit: "restricted"
+  audit-version: "latest"
+  warn: "restricted"
+  warn-version: "latest"
+exemptions:
+  usernames:
+    - system:serviceaccount:openshift-infra:build-controller
+```
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**
