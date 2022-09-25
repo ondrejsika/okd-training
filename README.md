@@ -41,6 +41,12 @@ ssh root@labX.sikademo.com
 - Admin User: `kubeadmin`
 - Admin User Password: `cSaYX-PvsVh-U5R7S-xHcx9`
 
+## Connect the Demo Cluster
+
+Get token here:
+
+https://oauth-openshift.apps.okd95.aws0.sikademo.com/oauth/token/request
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**
