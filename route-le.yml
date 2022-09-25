@@ -1,0 +1,16 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: example-le
+  annotations:
+    kubernetes.io/tls-acme: "true"
+spec:
+  host: example-le.apps.okd95.aws0.sikademo.com
+  to:
+    kind: Service
+    name: example
+  port:
+    targetPort: 80
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
