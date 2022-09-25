@@ -4,7 +4,20 @@
 
 ## Course
 
-TODO
+## Setup Workstation
+
+### Install `oc`
+
+- https://docs.openshift.com/container-platform/4.11/cli_reference/openshift_cli/getting-started-cli.html
+- https://docs.okd.io/4.11/cli_reference/openshift_cli/getting-started-cli.html
+- https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/
+- https://mirror.openshift.com/pub/openshift-v4/clients/ocp/stable/
+
+Mac
+
+```
+brew install openshift-cli
+```
 
 ## Thank you! & Questions?
 
