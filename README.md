@@ -62,6 +62,30 @@ user2:$apr1$ibyx8umg$CQazIIYavasmgi4Xbp6721
 user3:$apr1$ibyx8umg$CQazIIYavasmgi4Xbp6721
 ```
 
+## Create Project
+
+### Create Project Using CLI
+
+```
+oc new-project training
+```
+
+### Create Project form YAML
+
+```
+oc apply -f project-foo.yml
+```
+
+```
+oc apply -f project-bar.yml
+```
+
+Create `training-restricted` project with admission security restrictions.
+
+```
+oc apply -f project-training-restricted.yml
+```
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**
