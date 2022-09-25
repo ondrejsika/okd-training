@@ -1,0 +1,11 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: example-http
+spec:
+  host: example-http.apps.okd95.aws0.sikademo.com
+  to:
+    kind: Service
+    name: example
+  port:
+    targetPort: 80
