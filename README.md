@@ -29,6 +29,12 @@ Password is `asdfasdf1234`
 ssh root@labX.sikademo.com
 ```
 
+## Demo OKD Cluster
+
+- URL: https://console-openshift-console.apps.okd95.aws0.sikademo.com
+- Admin User: `kubeadmin`
+- Admin User Password: `cSaYX-PvsVh-U5R7S-xHcx9`
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**
