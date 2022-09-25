@@ -86,6 +86,30 @@ Create `training-restricted` project with admission security restrictions.
 oc apply -f project-training-restricted.yml
 ```
 
+## Project CLI
+
+List projects
+
+```
+oc projects
+```
+
+Get current project
+
+```
+oc project
+```
+
+Switch project
+
+```
+oc project <project>
+```
+
+```
+oc project training
+```
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**
