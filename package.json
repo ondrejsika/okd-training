@@ -1,0 +1,12 @@
+{
+  "name": "okd-training",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "prettier-check": "prettier --check .",
+    "prettier-write": "prettier --write ."
+  },
+  "dependencies": {
+    "prettier": "^2.7.1"
+  }
+}
