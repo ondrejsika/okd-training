@@ -131,6 +131,31 @@ exemptions:
     - system:serviceaccount:openshift-infra:build-controller
 ```
 
+## Routes
+
+Simple HTTP Route
+
+```
+oc apply -f route-http.yml
+```
+
+HTTPS Route with embedded certificate
+
+```
+oc apply -f route-http.yml
+```
+
+## Routes With Let's Encrypt
+
+- https://developer.ibm.com/tutorials/secure-red-hat-openshift-routes-with-lets-encrypt/
+-
+
+HTTPS Route with Let's Encrypt certificate
+
+```
+oc apply -f route-http.yml
+```
+
 ## Thank you! & Questions?
 
 That's it. Do you have any questions? **Let's go for a beer!**
