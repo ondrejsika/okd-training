@@ -118,6 +118,25 @@ oc adm policy add-scc-to-user anyuid -z default
 
 Source: <https://dev.to/ksingh7/allow-containers-to-run-as-root-on-openshift-4-hack-3gp7>
 
+## Pod Security Context
+
+```yaml
+securityContext:
+  allowPrivilegeEscalation: false
+  capabilities:
+    drop:
+      - ALL
+  runAsNonRoot: true
+  seccompProfile:
+    type: RuntimeDefault
+```
+
+Example
+
+```
+oc apply -f security-context.yml
+```
+
 ## Pod Security Admission
 
 - https://cloud.redhat.com/blog/pod-security-admission-in-openshift-4.11
