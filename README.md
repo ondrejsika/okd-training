@@ -110,6 +110,14 @@ oc project <project>
 oc project training
 ```
 
+## Allow Containers to run as root
+
+```
+oc adm policy add-scc-to-user anyuid -z default
+```
+
+Source: <https://dev.to/ksingh7/allow-containers-to-run-as-root-on-openshift-4-hack-3gp7>
+
 ## Pod Security Admission
 
 - https://cloud.redhat.com/blog/pod-security-admission-in-openshift-4.11
