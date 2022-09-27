@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: security-context
+spec:
+  selector:
+    matchLabels:
+      app: security-context
+  template:
+    metadata:
+      labels:
+        app: security-context
+        svc: example-8000
+    spec:
+      containers:
+        - name: main
+          image: ondrejsika/training-example
+          ports:
+            - containerPort: 8000
+          env:
+            - name: PORT
+              value: "8000"
+          resources:
+            requests:
+              cpu: 10m
+              memory: 10Mi
+            limits:
+              memory: 20Mi
+              cpu: 20m
+          securityContext:
+            allowPrivilegeEscalation: false
+            capabilities:
+              drop:
+                - ALL
+            runAsNonRoot: true
+            seccompProfile:
+              type: RuntimeDefault
