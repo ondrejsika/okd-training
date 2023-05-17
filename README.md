@@ -37,7 +37,7 @@ ssh root@labX.sikademo.com
 
 ## Demo OKD Cluster
 
-- URL: https://console-openshift-console.apps.okd92.aws0.sikademo.com
+- URL: https://console-openshift-console.apps.okd0.aws0.sikademo.com
 - Admin User: `kubeadmin`
 - Admin User Password: `cSaYX-PvsVh-U5R7S-xHcx9`
 
@@ -45,11 +45,11 @@ ssh root@labX.sikademo.com
 
 Get token here:
 
-https://oauth-openshift.apps.okd92.aws0.sikademo.com/oauth/token/request
+https://oauth-openshift.apps.okd0.aws0.sikademo.com/oauth/token/request
 
 ## Add OAuth Identity Provider
 
-https://console-openshift-console.apps.okd92.aws0.sikademo.com/k8s/cluster/config.openshift.io~v1~OAuth/cluster
+https://console-openshift-console.apps.okd0.aws0.sikademo.com/k8s/cluster/config.openshift.io~v1~OAuth/cluster
 
 `.htpasswd` file with password `a`:
 
