@@ -29,7 +29,7 @@ slu install-bin oc
 
 Connect my lab VM using SSH on `root@labX.sikademo.com` where `X` is your instance nuber.
 
-Password is `asdfasdf1234`
+Password is `asdfasdf2020`
 
 ```
 ssh root@labX.sikademo.com
