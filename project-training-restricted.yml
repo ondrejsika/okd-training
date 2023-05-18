@@ -4,4 +4,4 @@ metadata:
   name: training-restricted
   labels:
     pod-security.kubernetes.io/enforce: restricted
-    pod-security.kubernetes.io/enforce-version: v1.24
+    pod-security.kubernetes.io/enforce-version: v1.25
