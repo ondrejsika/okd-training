@@ -39,7 +39,7 @@ ssh root@labX.sikademo.com
 
 - URL: https://console-openshift-console.apps.okd0.aws0.sikademo.com
 - Admin User: `kubeadmin`
-- Admin User Password: `Tnent-Eoqtj-b4wn2-LuW7E`
+- Admin User Password: `emP7t-oQMaE-U4e4I-gduTh`
 
 ## Connect the Demo Cluster
 
