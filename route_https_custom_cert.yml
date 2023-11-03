@@ -1,0 +1,29 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: example-https-custom-cert
+spec:
+  host: example-https-custom-cert.okd.sikademo.com
+  to:
+    kind: Service
+    name: example-okd
+  port:
+    targetPort: 8000
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
+    key: |
+      -----BEGIN EC PRIVATE KEY-----
+      MHcCAQEEIA18GwB4J0Pi7P3+1aAV0VRZ768ikctPQrIOdW2KTxKQoAoGCCqGSM49
+      ...
+      -----END EC PRIVATE KEY-----
+    certificate: |
+      -----BEGIN CERTIFICATE-----
+      cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwggIiMA0GCSqGSIb3DQEB
+      ...
+      -----END CERTIFICATE-----
+
+      -----BEGIN CERTIFICATE-----
+      cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwggIiMA0GCSqGSIb3DQEB
+      ...
+      -----END CERTIFICATE-----
