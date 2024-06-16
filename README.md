@@ -4,6 +4,44 @@
 
 ## Course
 
+## About Me - Ondrej Sika
+
+**Freelance DevOps Engineer, Consultant & Lecturer**
+
+- Complete DevOps Pipeline
+- Open Source / Linux Stack
+- Cloud & On-Premise
+- Technology stack
+  - Git, Gitlab, Github
+  - Gitlab CI, Github Actions
+  - Docker, Kubernetes, OpenShift
+  - Prometheus, Grafana, Loki, ElasticStack
+  - Terraform, Ansible
+  - Azure, AWS, VMware, Proxmox
+
+## Star, Create Issues, Fork, and Contribute
+
+Feel free to star this repository or fork it.
+
+If you found bug, create issue or pull request.
+
+Also feel free to propose improvements by creating issues.
+
+## Chat
+
+For sharing links & "secrets".
+
+- Campfire - https://sika.link/join-campfire
+- Slack - https://sikapublic.slack.com/
+- Microsoft Teams
+- https://sika.link/chat (tlk.io)
+
+## DevOps Kniha (Czech only)
+
+[![](./images/devops_kniha.jpg)](https://kniha.sika.io)
+
+<https://kniha.sika.io>
+
 ## Setup Workstation
 
 ### Install `oc`
