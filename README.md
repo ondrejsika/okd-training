@@ -117,6 +117,12 @@ oc patch ingresscontroller.operator default \
   --type=merge -p '{"spec":{"defaultCertificate": {"name": "okd0-sikademo-com-tls"}}}'
 ```
 
+## OAuth configuration with Keycloak SSO using YAML
+
+```yaml
+oc apply -f examples/oauth.yml
+```
+
 ## Add OAuth Identity Provider
 
 https://console-openshift-console.apps.okd0.aws0.sikademo.com/k8s/cluster/config.openshift.io~v1~OAuth/cluster
