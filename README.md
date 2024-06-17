@@ -85,6 +85,38 @@ Get token here:
 
 https://oauth-openshift.apps.okd0.aws0.sikademo.com/oauth/token/request
 
+## Replacing the default ingress certificate
+
+https://docs.openshift.com/container-platform/4.15/security/certificates/replacing-default-ingress-certificate.html
+
+### Create Certificate using LEGO
+
+```bash
+lego --email ondrejsika@ondrejsika.com --dns cloudflare \
+  --domains okd0.sikademo.com \
+  --domains '*.okd0.sikademo.com' \
+  --domains '*.apps.okd0.sikademo.com' \
+  --domains '*.corp.sikademo.com' \
+  run
+```
+
+### Create Secret
+
+```bash
+oc create secret tls okd0-sikademo-com-tls \
+  -n openshift-ingress \
+  --cert=.lego/certificates/okd0.sikademo.com.crt \
+  --key=./.lego/certificates/okd0.sikademo.com.key
+```
+
+### Patch Ingress Controller
+
+```bash
+oc patch ingresscontroller.operator default \
+  -n openshift-ingress-operator \
+  --type=merge -p '{"spec":{"defaultCertificate": {"name": "okd0-sikademo-com-tls"}}}'
+```
+
 ## Add OAuth Identity Provider
 
 https://console-openshift-console.apps.okd0.aws0.sikademo.com/k8s/cluster/config.openshift.io~v1~OAuth/cluster
