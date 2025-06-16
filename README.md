@@ -1,6 +1,6 @@
 [Ondrej Sika (sika.io)](https://sika.io) | <ondrej@sika.io>
 
-# OKD (OpenShift) Training
+# OpenShift Training / OKD Training
 
 ## Course
 
