@@ -123,6 +123,8 @@ oc patch ingresscontroller.operator default \
 oc apply -f examples/oauth.yml
 ```
 
+![login with Keycloak SSO](./images/login_with_keycloak_sso.png)
+
 ## Add OAuth Identity Provider
 
 https://console-openshift-console.apps.okd0.aws0.sikademo.com/k8s/cluster/config.openshift.io~v1~OAuth/cluster
