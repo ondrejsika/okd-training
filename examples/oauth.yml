@@ -5,11 +5,11 @@ metadata:
 spec:
   identityProviders:
     - type: OpenID
-      name: SikaDemo_SSO
+      name: SikaLabs_Training_SSO
       mappingMethod: claim
       openID:
-        issuer: "https://sso.sikademo.com/realms/sikademo"
-        clientID: default
+        issuer: "https://sso.sikalabs.com/realms/training"
+        clientID: example_client_id
         clientSecret:
           name: openid-client-secret-sikalabs-sso
         claims:
@@ -28,4 +28,4 @@ metadata:
   namespace: openshift-config
 type: Opaque
 stringData:
-  clientSecret: default
+  clientSecret: example_client_secret
