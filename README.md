@@ -70,8 +70,8 @@ ssh root@labX.sikademo.com
 
 ### Install `oc`
 
-- https://docs.openshift.com/container-platform/4.11/cli_reference/openshift_cli/getting-started-cli.html
-- https://docs.okd.io/4.11/cli_reference/openshift_cli/getting-started-cli.html
+- https://docs.redhat.com/en/documentation/openshift_container_platform/4.18/html/cli_tools/openshift-cli-oc
+- https://docs.okd.io/4.18/cli_reference/openshift_cli/getting-started-cli.html
 - https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/
 - https://mirror.openshift.com/pub/openshift-v4/clients/ocp/stable/
 
