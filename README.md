@@ -1,5 +1,7 @@
 [Ondrej Sika (sika.io)](https://sika.io) | <ondrej@sika.io>
 
+![OpenShift Logo](./images/openshift.svg)
+
 # OpenShift Training / OKD Training
 
 ## Course
