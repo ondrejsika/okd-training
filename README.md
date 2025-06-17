@@ -257,13 +257,19 @@ exemptions:
 Simple HTTP Route
 
 ```
-oc apply -f route-http.yml
+oc apply -f examples/route_http.yml
 ```
 
 HTTPS Route with embedded certificate
 
 ```
-oc apply -f route-http.yml
+oc apply -f examples/route_https_custom_cert.yml
+```
+
+HTTPS Route with default certificate
+
+```
+oc apply -f examples/route_https_default_cert.yml
 ```
 
 ## Routes With Let's Encrypt
@@ -274,7 +280,7 @@ oc apply -f route-http.yml
 HTTPS Route with Let's Encrypt certificate
 
 ```
-oc apply -f route-http.yml
+oc apply -f examples/route_https_le_cert.yml
 ```
 
 ## Thank you! & Questions?
