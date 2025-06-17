@@ -275,7 +275,6 @@ oc apply -f examples/route_https_default_cert.yml
 ## Routes With Let's Encrypt
 
 - https://developer.ibm.com/tutorials/secure-red-hat-openshift-routes-with-lets-encrypt/
--
 
 HTTPS Route with Let's Encrypt certificate
 
