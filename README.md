@@ -4,6 +4,16 @@
 
 ## Course
 
+## Kubernetes Training Repository
+
+OpenShift is a distribution of Kubernetes, so many things are same or similar to Kubernetes.
+
+We will use [kubernetes-training](https://github.com/ondrejsika/kubernetes-training) repository lots of examples as well.
+
+```
+https://github.com/ondrejsika/kubernetes-training
+```
+
 ## About Me - Ondrej Sika
 
 **Freelance DevOps Engineer, Consultant & Lecturer**
