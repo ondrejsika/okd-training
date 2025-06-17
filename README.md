@@ -44,9 +44,13 @@ For sharing links & "secrets".
 
 ## Connect Lab VM
 
-Connect my lab VM using SSH on `root@labX.sikademo.com` where `X` is your instance nuber.
+Open VS Code in the browser (i recommend using Google Chrome): on `https://codeX.sikademo.com` where `X` is your instance number.
 
 Password is `asdfasdf2020`
+
+You can also connect lab VM directly using SSH on `root@labX.sikademo.com` where `X` is your instance nuber.
+
+Root password is `asdfasdf2020`
 
 ```
 ssh root@labX.sikademo.com
