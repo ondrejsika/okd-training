@@ -42,6 +42,16 @@ For sharing links & "secrets".
 
 <https://kniha.sika.io>
 
+## Connect Lab VM
+
+Connect my lab VM using SSH on `root@labX.sikademo.com` where `X` is your instance nuber.
+
+Password is `asdfasdf2020`
+
+```
+ssh root@labX.sikademo.com
+```
+
 ## Setup Workstation
 
 ### Install `oc`
@@ -61,16 +71,6 @@ Using [slu](https://github.com/sikalabs/slu) (Linux, Windows, Mac)
 
 ```
 slu install-bin oc
-```
-
-## Connect Lab VM
-
-Connect my lab VM using SSH on `root@labX.sikademo.com` where `X` is your instance nuber.
-
-Password is `asdfasdf2020`
-
-```
-ssh root@labX.sikademo.com
 ```
 
 ## Demo OKD Cluster
