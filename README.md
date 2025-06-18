@@ -93,7 +93,7 @@ slu install-bin oc
 
 - URL: https://console-openshift-console.apps.training.germanywestcentral.aroapp.io
 - Admin User: `kubeadmin`
-- Admin User Password: `emP7t-oQMaE-U4e4I-gduTh`
+- Admin User Password: `ze94c-74HRW-tZNwa-M9Yvr`
 
 ## Connect the Demo Cluster
 
