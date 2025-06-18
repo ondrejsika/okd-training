@@ -3,7 +3,7 @@ kind: Route
 metadata:
   name: example-https-custom-cert
 spec:
-  host: example-https-custom-cert.okd.sikademo.com
+  host: example-https-custom-cert.openshift.sikademo.com
   to:
     kind: Service
     name: example-okd

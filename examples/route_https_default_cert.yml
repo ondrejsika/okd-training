@@ -3,7 +3,7 @@ kind: Route
 metadata:
   name: example-https-default-cert
 spec:
-  host: example-https-default-cert.apps.okd.aws.sikademo.com
+  host: example-https-default-cert.apps.training.germanywestcentral.aroapp.io
   to:
     kind: Service
     name: example

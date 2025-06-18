@@ -3,7 +3,7 @@ kind: Route
 metadata:
   name: example-http
 spec:
-  host: example-http.apps.okd.aws.sikademo.com
+  host: example-http.apps.training.germanywestcentral.aroapp.io
   to:
     kind: Service
     name: example

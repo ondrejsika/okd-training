@@ -91,7 +91,7 @@ slu install-bin oc
 
 ## Demo OKD Cluster
 
-- URL: https://console-openshift-console.apps.okd0.aws0.sikademo.com
+- URL: https://console-openshift-console.apps.training.germanywestcentral.aroapp.io
 - Admin User: `kubeadmin`
 - Admin User Password: `emP7t-oQMaE-U4e4I-gduTh`
 
@@ -99,7 +99,7 @@ slu install-bin oc
 
 Get token here:
 
-https://oauth-openshift.apps.okd0.aws0.sikademo.com/oauth/token/request
+https://oauth-openshift.apps.training.germanywestcentral.aroapp.io/oauth/token/request
 
 ## Replacing the default ingress certificate
 
@@ -143,7 +143,7 @@ oc apply -f examples/oauth.yml
 
 ## Add OAuth Identity Provider
 
-https://console-openshift-console.apps.okd0.aws0.sikademo.com/k8s/cluster/config.openshift.io~v1~OAuth/cluster
+https://console-openshift-console.apps.training.germanywestcentral.aroapp.io/k8s/cluster/config.openshift.io~v1~OAuth/cluster
 
 `.htpasswd` file with password `a`:
 
